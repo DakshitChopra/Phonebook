@@ -1,4 +1,4 @@
-import 'package:contacts_app/contact.dart';
+import 'package:contacts_app/contacts.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
