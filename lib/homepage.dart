@@ -1,6 +1,6 @@
 import 'package:contacts_app/contacts.dart';
 import 'package:flutter/material.dart';
-
+import 'package:contacts_app/pallete.dart';
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -109,8 +109,8 @@ class _HomePageState extends State<HomePage> {
       child: ListTile(
         leading: CircleAvatar(
           backgroundColor:
-              index % 2 == 0 ? Colors.deepPurpleAccent : Colors.purple,
-          foregroundColor: Colors.white,
+              index % 2 == 0 ? Pallete.blue : Pallete.green,
+          foregroundColor: Pallete.whiteColor,
           child: Text(
             contacts[index].name[0],
             style: const TextStyle(fontWeight: FontWeight.bold),
